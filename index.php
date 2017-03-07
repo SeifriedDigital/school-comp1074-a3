@@ -14,6 +14,11 @@
 		<meta name="description" content="Property maintenance for less. Professional property care for residential and commercial needs covering a range of services.">
 		<meta name="keywords" content="Property Maintenance, Grass Cutting, Lawn Mowing, Weed Whipping, Tree Removal, Stump Removal">
 		<meta name="author" content="Mathew Seifried">
+
+		<link rel="stylesheet" href="assets/stylesheets/normalize.css">
+		<link rel="stylesheet" href="assets/stylesheets/slick.css">
+		<link rel="stylesheet" href="assets/stylesheets/slick-theme.css">
+		<link rel="stylesheet" href="assets/stylesheets/custom.css">
 	</head>
 
 	<body>
@@ -28,8 +33,10 @@
 			</nav>
 		</header>
 
-		<div class="slideshow" role="banner">
-
+		<div id="slick-slideshow" role="banner">
+			<img src="http://placehold.it/350x150">
+			<img src="http://placehold.it/350x150">
+			<img src="http://placehold.it/350x150">
 		</div>
 
 		<main role="main">
@@ -74,9 +81,42 @@
 			</blockquote>
 		</section>
 
+		<section id="contact">
+			<form id="contact-form" action="index" method="post">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input id="name" type="text" name="name" required>
+				</div>
+
+				<div class="form-group">
+					<label for="subject">Subject</label>
+					<input id="subject" type="text" name="subject" required>
+				</div>
+
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea id="message" name="message" required></textarea>
+				</div>
+
+				<div class="form-group">
+					<button type="submit" name="contact-form-submit-button">Send</button>
+				</div>
+
+				<div class="form-group">
+					<p class="form-err"></p>
+					<p class="form-message"></p>
+				</div>
+			</form>
+		</section>
+
 		<footer role="contentinfo">
 			<small>&copy; <?php echo date("Y"); ?> Property Workz</small>
 			<small>Website By: <a href="www.mathew.codes">Mathew Seifried</a></small>
 		</footer>
+
+		<!-- Scripts -->
+		<script type="text/javascript" src="assets/javascripts/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="assets/javascripts/slick.min.js"></script>
+		<script type="text/javascript" src="assets/javascripts/custom.js"></script>
 	</body>
 </html>
