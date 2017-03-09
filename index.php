@@ -27,7 +27,7 @@
 	<body>
 		<header>
             <div class="container">
-                <div id="mobile-header">
+                <div id="mobile-header" class="mobile-only">
                     <a href="tel:519-943-2206"><i class="fa fa-phone" aria-hidden="true"></i></a>
                     <a href="" id="open-nav-button" title="Open navigation" role="button" aria-pressed="false"><i class="fa fa-bars"></i></a>
                 </div>
