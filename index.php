@@ -127,8 +127,10 @@
         </div>
 
 		<footer role="contentinfo">
-			<small>&copy; <?php echo date("Y"); ?> Property Workz</small>
-			<small>Website By: <a href="www.mathew.codes">Mathew Seifried</a></small>
+            <div class="container">
+                <small>&copy; <?php echo date("Y"); ?> Property Workz</small>
+                <small>Website By: <a href="www.mathew.codes">Mathew Seifried</a></small>
+            </div>
 		</footer>
 
 		<!-- Scripts -->

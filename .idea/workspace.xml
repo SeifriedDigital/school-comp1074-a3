@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f37f34-0fa7-4ef3-92b8-42158413a61e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/logo.png" afterPath="$PROJECT_DIR$/assets/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/custom.css" afterPath="$PROJECT_DIR$/assets/stylesheets/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/sass/helpers/variables.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/helpers/variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros-6.config" afterPath="$PROJECT_DIR$/prepros-6.config" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +27,8 @@
               <file leaf-file-name="global.scss" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="510">
-                      <caret line="99" column="3" lean-forward="true" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+                    <state relative-caret-position="868">
+                      <caret line="196" column="3" lean-forward="false" selection-start-line="196" selection-start-column="3" selection-end-line="196" selection-end-column="3" />
                       <folding />
                     </state>
                   </provider>
@@ -41,8 +37,8 @@
               <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="0">
-                      <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                    <state relative-caret-position="510">
+                      <caret line="34" column="1" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
                       <folding />
                     </state>
                   </provider>
@@ -75,8 +71,8 @@
               <file leaf-file-name="global.scss" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="165">
-                      <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+                    <state relative-caret-position="120">
+                      <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
                       <folding />
                     </state>
                   </provider>
@@ -91,8 +87,8 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                <state relative-caret-position="741">
+                  <caret line="131" column="89" lean-forward="false" selection-start-line="131" selection-start-column="89" selection-end-line="131" selection-end-column="89" />
                   <folding />
                 </state>
               </provider>
@@ -109,9 +105,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/javascripts/custom.js" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/helpers/variables.scss" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss" />
       </list>
     </option>
@@ -278,12 +274,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489078984185</updated>
-      <workItem from="1489078985371" duration="10054000" />
+      <workItem from="1489078985371" duration="13274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10054000" />
+    <option name="totallyTimeSpent" value="13274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -327,14 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -351,18 +339,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="99" column="3" lean-forward="true" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+        <state relative-caret-position="741">
+          <caret line="131" column="89" lean-forward="false" selection-start-line="131" selection-start-column="89" selection-end-line="131" selection-end-column="89" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="196" column="3" lean-forward="false" selection-start-line="196" selection-start-column="3" selection-end-line="196" selection-end-column="3" />
           <folding />
         </state>
       </provider>
