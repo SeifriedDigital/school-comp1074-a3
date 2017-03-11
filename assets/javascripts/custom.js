@@ -14,7 +14,7 @@ $(document).ready(function() {
     })
 
 	// Initialize slick slideshow banner
-	$('#slick-slideshow').slick({
+	$('#slick-slideshow-banner').slick({
 		autoplay: true,
 		autoplaySpeed: 3000,
 		arrows: false,
@@ -24,4 +24,39 @@ $(document).ready(function() {
 		mobileFirst: true,
 
 	})
+
+	// Initialize instagram feed if related element is present
+	if('#instafeed') {
+        let feed = new Instafeed({
+            get: 'user',
+            userId: '195292122',
+            accessToken: '195292122.1677ed0.c58643a2be394c399734023474d44cac',
+			limit: '18',
+			resolution: 'low_resolution',
+            sortBy: 'most-liked'
+        })
+        feed.run()
+	}
+
+    // Initialize slick slideshow testimonials
+    $('#slick-slideshow-testimonials').slick({
+        autoplay: false,
+        arrows: true,
+        cssEase: 'linear',
+        dots: true,
+        lazyLode: 'progressive',
+        mobileFirst: true,
+    })
+
+	// Find overflowing elements
+    var docWidth = document.documentElement.offsetWidth;
+
+    [].forEach.call(
+        document.querySelectorAll('*'),
+        function(el) {
+            if (el.offsetWidth > docWidth) {
+                console.log(el);
+            }
+        }
+    );
 })

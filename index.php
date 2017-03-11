@@ -33,7 +33,7 @@
                 </div>
 
                 <div id="logo-container">
-                    <img src="assets/images/logo.png" alt="">
+                    <h1><img src="assets/images/logo.png" alt="Property Workz"></h1>
                 </div>
 
                 <nav id="main-nav" role="navigation">
@@ -49,52 +49,84 @@
 		</header>
 
         <div class="container">
-            <div id="slick-slideshow" role="banner">
-                <img src="http://placehold.it/350x150">
-                <img src="http://placehold.it/350x150">
-                <img src="http://placehold.it/350x150">
+
+            <div id="slick-slideshow-container">
+                <div id="slick-slideshow-banner" role="banner">
+                    <img src="http://placehold.it/350x350">
+                    <img src="http://placehold.it/350x350">
+                    <img src="http://placehold.it/350x350">
+                </div>
+
+                <a href="#contact">Request a Quote</a>
             </div>
 
             <main role="main">
-                <section id="services">
-                    <h2>Services</h2>
+                <div class="flex-container">
+                    <section id="service-areas">
+                        <h2>What is Property Workz?</h2>
+                        <p>We are a property care and maintenance provider working our ot southerns Ontario. Property Workz servers both residential and commercial clients small and large. </p>
+                        <!--                        <ul>-->
+                        <!--                            <li>Brampton</li>-->
+                        <!--                            <li>Caledon</li>-->
+                        <!--                            <li>Erin</li>-->
+                        <!--                            <li>Georgetown</li>-->
+                        <!--                            <li>Guelph</li>-->
+                        <!--                            <li>Orangeville</li>-->
+                        <!--                            <li><span>&amp;</span><br>surrounding areas</li>-->
+                        <!--                        </ul>-->
+                    </section>
 
-                    <div class="service-block">
-                        <h3>Lawn Care</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    </div>
+                    <section id="services">
+                        <h2>Services</h2>
 
-                    <div class="service-block">
-                        <h3>Gardening</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    </div>
+                        <div class="service-block">
+                            <h3>Lawn Care</h3>
+                            <p>Scheduled lawn care services to suit your needs. Whether it is twice a week or once every other week we will keep your lawn looking beautiful. Lawn mowing, weed whipping, watering, aerating and rolling are just some of our lawn care services. </p>
+                        </div>
 
-                    <div class="service-block">
-                        <h3>Power Washing</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    </div>
-                </section>
+                        <div class="service-block">
+                            <h3>Gardening & Landscaping</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
 
-                <section id="service-areas">
-                    <h2>Serving;</h2>
-                    <ul>
-                        <li>Brampton</li>
-                        <li>Caledon</li>
-                        <li>Erin</li>
-                        <li>Georgetown</li>
-                        <li>Guelph</li>
-                        <li>Orangeville</li>
-                        <li>and surrounding areas!</li>
-                    </ul>
-                </section>
+                        <div class="service-block">
+                            <h3>Power Washing</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                        <div class="service-block">
+                            <h3>Not What You Were Looking For?</h3>
+                            <p>Didn't see what you were looking for in terms of services? Send us a message explaining your needs and we will do our best to get the job done.</p>
+                        </div>
+                    </section>
+
+                </div>
             </main>
+
+            <section id="instafeed-container" class="desktop-only">
+                <h2>Some of Our Work</h2>
+
+                <div id="instafeed">
+                <!-- Populated via JS -->
+                </div>
+            </section>
 
             <section id="testimonials" role="complementary">
                 <h2>Testimonials</h2>
 
-                <blockquote cite="John Doe" class="testimonial-slider">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> - John Doe
-                </blockquote>
+                <div id="slick-slideshow-testimonials">
+                    <blockquote cite="John Doe" class="testimonial-slider">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> - John Doe
+                    </blockquote>
+
+                    <blockquote cite="John Doe" class="testimonial-slider">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> - John Doe
+                    </blockquote>
+
+                    <blockquote cite="John Doe" class="testimonial-slider">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> - John Doe
+                    </blockquote>
+                </div>
             </section>
 
             <section id="contact">
@@ -136,6 +168,7 @@
 		<!-- Scripts -->
 		<script type="text/javascript" src="assets/javascripts/jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="assets/javascripts/slick.min.js"></script>
+        <script type="text/javascript" src="assets/javascripts/instafeed.min.js"></script>
 		<script type="text/javascript" src="assets/javascripts/custom.js"></script>
 	</body>
 </html>
