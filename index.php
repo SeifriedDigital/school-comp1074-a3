@@ -62,18 +62,19 @@
 
             <main role="main">
                 <div class="flex-container">
-                    <section id="service-areas">
-                        <h2>What is Property Workz?</h2>
-                        <p>We are a property care and maintenance provider working our ot southerns Ontario. Property Workz servers both residential and commercial clients small and large. </p>
-                        <!--                        <ul>-->
-                        <!--                            <li>Brampton</li>-->
-                        <!--                            <li>Caledon</li>-->
-                        <!--                            <li>Erin</li>-->
-                        <!--                            <li>Georgetown</li>-->
-                        <!--                            <li>Guelph</li>-->
-                        <!--                            <li>Orangeville</li>-->
-                        <!--                            <li><span>&amp;</span><br>surrounding areas</li>-->
-                        <!--                        </ul>-->
+                    <section id="about">
+                        <h2>We Are <span>Property Workz</span></h2>
+                        <p>Since 2011 we have been providing residential and commercial property care to hundreds of customers across southern Ontario. We provide numerous services to suit your property's needs, whether it is weekly lawn care, tree removal or pressure washing, we will get the job done. We work with your schedule and aim to provide the same high standard of detail to each customer no matter the job.</p>
+                        <h3>Providing service to</h3>
+                        <ul>
+                            <li>Brampton</li>
+                            <li>Caledon</li>
+                            <li>Erin</li>
+                            <li>Georgetown</li>
+                            <li>Guelph</li>
+                            <li>Orangeville</li>
+                            <li>& surrounding areas</li>
+                        </ul>
                     </section>
 
                     <section id="services">

@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37f37f34-0fa7-4ef3-92b8-42158413a61e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/custom.js" afterPath="$PROJECT_DIR$/assets/javascripts/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/custom.css" afterPath="$PROJECT_DIR$/assets/stylesheets/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/sass/helpers/variables.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/helpers/variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
@@ -28,8 +26,8 @@
           <file leaf-file-name="global.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+                <state relative-caret-position="690">
+                  <caret line="165" column="18" lean-forward="false" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -38,8 +36,8 @@
           <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+                <state relative-caret-position="714">
+                  <caret line="176" column="13" lean-forward="false" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -73,7 +71,7 @@
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="405">
-                  <caret line="74" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+                  <caret line="75" column="34" lean-forward="false" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -86,9 +84,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>$brand-green</find>
+      <find>-.5rem</find>
+      <find>nowrap</find>
     </findStrings>
     <replaceStrings>
       <replace>$brand-orange</replace>
+      <replace>-1rem</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -100,8 +101,8 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/helpers/variables.scss" />
         <option value="$PROJECT_DIR$/assets/javascripts/custom.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss" />
       </list>
     </option>
   </component>
@@ -275,12 +276,12 @@
       <option name="presentableId" value="Default" />
       <updated>1489078984185</updated>
       <workItem from="1489078985371" duration="13826000" />
-      <workItem from="1489243137228" duration="16198000" />
+      <workItem from="1489243137228" duration="20318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30024000" />
+    <option name="totallyTimeSpent" value="34144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -358,16 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state relative-caret-position="690">
+          <caret line="165" column="18" lean-forward="false" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -375,7 +368,15 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <caret line="75" column="34" lean-forward="false" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/partials/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="176" column="13" lean-forward="false" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
           <folding />
         </state>
       </provider>
