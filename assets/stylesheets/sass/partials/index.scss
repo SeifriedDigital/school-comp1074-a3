@@ -18,7 +18,11 @@ h3 + p {
 
 body {
   >div#ss-banner-container {
+    display: flex;
+    align-items: center;
     position: relative;
+    max-height: 60vh;
+    overflow: hidden;
 
     // Remove margin from generated slick-slideshow element
     >div:first-of-type {
@@ -50,6 +54,7 @@ body {
 
   section {
     border-bottom: 3px solid $dark-gray;
+    overflow: hidden;
   }
 
   >main {
@@ -122,10 +127,58 @@ body {
   >section#testimonials {
     padding: 3rem 1rem 4rem;
     background: $brand-orange;
+
+    .testimonial-slider {
+      margin: 0;
+    }
+
+    blockquote>span {
+      position: relative;
+      left: 70%;
+    }
   }
 
   >section#contact {
     padding: 3rem 1rem 4rem;
+
+    >form {
+
+      >div.form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+
+        >label {
+          text-transform: uppercase;
+        }
+
+        >input, >textarea {
+          padding: .5rem;
+          border: 1px solid $dark-gray;
+        }
+
+        >textarea {
+          min-height: 150px;
+        }
+
+        >button {
+          padding: .8rem 1rem;
+          background: $brand-orange;
+          border: 1px solid $dark-gray;
+          border-radius: 5px;
+          box-shadow: $dark-gray 0px 5px 15px -8px;
+
+          color: $dark-gray;
+          font-weight: bold;
+          text-decoration: none;
+          text-transform: uppercase;
+
+          &:active {
+            box-shadow: $dark-gray 0px 0px 0px 0px;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -145,10 +198,38 @@ body {
     display: none;
   }
 
+  h2 {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: .75rem;
+  }
+
+  h3 {
+    margin-bottom: .5rem;
+  }
+
+  h3 + p {
+    margin-top: 0;
+  }
+
+  h2, h3, h4 {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   body{
     >div#ss-banner-container {
-      >a {
 
+      // Banner CTA
+      >a {
+        font-size: 2.2rem;
       }
     }
 
@@ -171,7 +252,9 @@ body {
         }
 
         >ul {
-
+          max-width: 700px;
+          margin-left: auto;
+          margin-right: auto;
         }
       }
 
@@ -204,6 +287,33 @@ body {
 
     >section#testimonials {
 
+      >div {
+        max-width: 700px;
+        margin: 0 auto;
+      }
+
+      .testimonial-slider {
+        margin: 0;
+      }
+
+      blockquote {
+
+      }
+
+      blockquote>span {
+        position: relative;
+        left: 70%;
+      }
+    }
+
+    >section#contact {
+
+      >form {
+
+        >div.form-group {
+
+        }
+      }
     }
   }
 }

@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^aerodrome\.ca [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://aerodrome.ca/$1 [R,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+ErrorDocument 404 /404

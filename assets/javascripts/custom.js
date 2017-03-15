@@ -29,9 +29,9 @@ $(document).ready(function() {
 	if('#instafeed') {
         let feed = new Instafeed({
             get: 'user',
-            userId: '195292122',
-            accessToken: '195292122.1677ed0.c58643a2be394c399734023474d44cac',
-			limit: '18',
+            userId: '4794113063',
+            accessToken: '4794113063.1677ed0.dbb0971a61bd491aa2f389d45bdc2ba4',
+            limit: '18',
 			resolution: 'low_resolution',
             sortBy: 'most-liked'
         })

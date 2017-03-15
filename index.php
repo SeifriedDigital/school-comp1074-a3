@@ -112,15 +112,15 @@
 
             <div id="slick-slideshow-testimonials">
                 <blockquote cite="John Doe" class="testimonial-slider">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> - John Doe
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
                 </blockquote>
 
                 <blockquote cite="John Doe" class="testimonial-slider">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> - John Doe
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
                 </blockquote>
 
                 <blockquote cite="John Doe" class="testimonial-slider">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> - John Doe
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
                 </blockquote>
             </div>
         </section>
@@ -130,17 +130,17 @@
 
             <form id="contact-form" action="index" method="post">
                 <div class="form-group">
-                    <label for="name">Name</label>
+                    <label for="name">Name:</label>
                     <input id="name" type="text" name="name" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="subject">Subject</label>
+                    <label for="subject">Subject:</label>
                     <input id="subject" type="text" name="subject" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="message">Message</label>
+                    <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
 
