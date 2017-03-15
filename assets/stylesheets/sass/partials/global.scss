@@ -110,6 +110,26 @@ body>header {
   }
 }
 
+body>footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $brand-orange;
+  padding: 2rem 1rem;
+
+  >small:first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  >small:last-of-type {
+    >a {
+      color: $dark-gray;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
+
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
@@ -146,6 +166,15 @@ body>header {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+  body>footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+
+    >small:first-of-type {
+      margin-bottom: 0;
+    }
+  }
 }
 
 /* Large Devices, Wide Screens */
@@ -163,9 +192,6 @@ body>header {
     width: 100%;
 
     >div {
-
-
-
       >div#mobile-nav-bar {
 
       }

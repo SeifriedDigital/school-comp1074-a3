@@ -438,43 +438,37 @@ body {
       }
     }
 
-    >div.flex-container {
-      display: flex;
-      flex-direction: column;
-    }
-
     section#testimonials {
-      width: 37.5%;
       padding: 2rem 2rem 3rem;
-      margin-left: 2.5%;
       box-sizing: border-box;
-      background: none;
 
-      >div {
-        max-width: 700px;
-        margin: 0 auto;
-      }
-
-      .testimonial-slider {
+      >div#slick-slideshow-testimonials {
+        display: flex;
+        justify-content: space-between;
+        max-width: none;
+        width: 100%;
         margin: 0;
-      }
 
-      blockquote {
+        >blockquote {
+          flex: 1;
+          padding: 0 1rem;
+          box-sizing: border-box;
 
-      }
+          &:first-of-type {
+            padding-left: 0;
+          }
 
-      blockquote>span {
-        position: relative;
-        left: 70%;
+          &:last-of-type {
+            padding-right: 0;
+          }
+        }
       }
     }
 
     section#contact {
         width: 60%;
         padding: 2rem 2rem 3rem;
-
         box-sizing: border-box;
-        background: $brand-orange;
 
       >form {
 
