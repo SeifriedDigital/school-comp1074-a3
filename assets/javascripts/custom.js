@@ -38,25 +38,44 @@ $(document).ready(function() {
         feed.run()
 	}
 
-    // Initialize slick slideshow testimonials
-    $('#slick-slideshow-testimonials').slick({
-        autoplay: false,
-        arrows: true,
-        cssEase: 'linear',
-        dots: true,
-        lazyLode: 'progressive',
-        mobileFirst: true,
+    // Check breakpoint for activating testimonial slider on doc load
+    CheckBreakpoints()
+
+    // Trigger functions on window resize
+    $(window).resize(function(){
+        CheckBreakpoints()
     })
 
-	// Find overflowing elements
-    var docWidth = document.documentElement.offsetWidth;
 
-    [].forEach.call(
-        document.querySelectorAll('*'),
-        function(el) {
-            if (el.offsetWidth > docWidth) {
-                console.log(el)
-            }
-        }
-    )
+    // // Find overflowing elements
+    // var docWidth = document.documentElement.offsetWidth;
+    //
+    // [].forEach.call(
+    //     document.querySelectorAll('*'),
+    //     function(el) {
+    //         if (el.offsetWidth > docWidth) {
+    //             console.log(el)
+    //         }
+    //     }
+    // )
 })
+
+function CheckBreakpoints() {
+    let sst = $('#slick-slideshow-testimonials')
+
+    if (window.matchMedia('(min-width: 992px)').matches) {
+        if(sst.hasClass('slick-initialized')) {
+            sst.slick('unslick')
+        }
+    } else if (!(sst.hasClass('slick-initialized'))) {
+        // Initialize slick slideshow for testimonials on mobile
+        sst.slick({
+            autoplay: false,
+            arrows: true,
+            cssEase: 'linear',
+            dots: true,
+            lazyLode: 'progressive',
+            mobileFirst: true
+        })
+    }
+}

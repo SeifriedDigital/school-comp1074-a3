@@ -73,7 +73,6 @@
 
             <section id="services">
                 <h2>Services</h2>
-                <p>Property Workz offers many diffrent services to our customers; the following are some of our specialties.</p>
 
                 <div class="service-block">
                     <h3>Lawn Care</h3>
@@ -98,7 +97,7 @@
         </main>
 
         <section id="instafeed-section">
-            <h2>Some of Our Work</h2>
+            <h2>See Some of Our Work</h2>
             <small> to view on Instagram</small>
 
             <div id="instafeed">
@@ -107,53 +106,53 @@
             <small></small>
         </section>
 
-        <section id="testimonials" role="complementary">
-            <h2>Testimonials</h2>
+            <section id="testimonials" role="complementary">
+                <h2>Testimonials</h2>
 
-            <div id="slick-slideshow-testimonials">
-                <blockquote cite="John Doe" class="testimonial-slider">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
-                </blockquote>
+                <div id="slick-slideshow-testimonials">
+                    <blockquote cite="John Doe" class="testimonial-slider">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                    </blockquote>
 
-                <blockquote cite="John Doe" class="testimonial-slider">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
-                </blockquote>
+                    <blockquote cite="John Doe" class="testimonial-slider">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                    </blockquote>
 
-                <blockquote cite="John Doe" class="testimonial-slider">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
-                </blockquote>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-
-            <form id="contact-form" action="index" method="post">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input id="name" type="text" name="name" required>
+                    <blockquote cite="John Doe" class="testimonial-slider">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                    </blockquote>
                 </div>
+            </section>
 
-                <div class="form-group">
-                    <label for="subject">Subject:</label>
-                    <input id="subject" type="text" name="subject" required>
-                </div>
+            <section id="contact">
+                <h2>Contact Us</h2>
 
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
+                <form id="contact-form" action="index" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" name="name" required>
+                    </div>
 
-                <div class="form-group">
-                    <button id="contact-form-submit" type="submit" name="contact-form-submit">Send</button>
-                </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input id="subject" type="text" name="subject" required>
+                    </div>
 
-                <div class="form-group">
-                    <p class="form-err"></p>
-                    <p class="form-message"></p>
-                </div>
-            </form>
-        </section>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button id="contact-form-submit" type="submit" name="contact-form-submit">Send</button>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="form-err"></p>
+                        <p class="form-message"></p>
+                    </div>
+                </form>
+            </section>
 
 		<footer role="contentinfo">
             <small>&copy;<?php echo date("Y"); ?> Property Workz</small>
