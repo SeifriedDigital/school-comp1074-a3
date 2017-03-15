@@ -1,6 +1,7 @@
 $(document).ready(function() {
-    $('#open-nav-button, #close-nav-button').on('click', function(event) {
-        event.preventDefault()
+
+    $('#open-nav-button').on('click', function(e) {
+        e.preventDefault()
         $('nav#main-nav').toggleClass('open')
 
 		// Change aria-pressed value when toggling the navigation via the nav toggle buttons on a mobile view
@@ -22,7 +23,6 @@ $(document).ready(function() {
 		dots: true,
 		lazyLode: 'progressive',
 		mobileFirst: true,
-
 	})
 
 	// Initialize instagram feed if related element is present
@@ -55,8 +55,8 @@ $(document).ready(function() {
         document.querySelectorAll('*'),
         function(el) {
             if (el.offsetWidth > docWidth) {
-                console.log(el);
+                console.log(el)
             }
         }
-    );
+    )
 })
