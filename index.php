@@ -158,7 +158,7 @@
                     <div>
                         <h3>Follow Us Online</h3>
                         <ul>
-                            <li><a href="https://www.facebook.com/propertyworkz" title="Property Workz on Facebook"><img src="assets/images/facebook.png" alt=""><span>facebook.com/propertyworkz</span></a></li>
+                            <li><a href="https://www.facebook.com/propertyworkz" title="Property Workz on Facebook"><img src="assets/images/facebook.png" alt=""><span>/propertyworkz</span></a></li>
                             <li><a href="https://www.instagram.com/propertyworkz/" title="Property Workz on Instagram"><img src="assets/images/instagram.png" alt=""><span>@propertyworkz</span></a></li>
                         </ul>
                     </div>
