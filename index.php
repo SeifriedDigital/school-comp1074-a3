@@ -42,7 +42,9 @@
             </div>
 
             <div>
-                <h1><img src="assets/images/logo.png" alt="Property Workz"></h1>
+               <h1>
+                   <img src="assets/images/logo.png" alt="Property Workz">
+               </h1>
             </div>
 		</header>
 
@@ -125,33 +127,42 @@
             </section>
 
             <section id="contact">
-                <h2>Contact Us</h2>
+                <div>
+                    <form id="contact-form" action="index" method="post">
+                        <h2>Contact Us</h2>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input id="name" type="text" name="name" required>
+                        </div>
 
-                <form id="contact-form" action="index" method="post">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input id="name" type="text" name="name" required>
-                    </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input id="subject" type="text" name="subject" required>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="subject">Subject:</label>
-                        <input id="subject" type="text" name="subject" required>
-                    </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
+                        <div class="form-group">
+                            <button id="contact-form-submit" type="submit" name="contact-form-submit">Send</button>
+                        </div>
 
-                    <div class="form-group">
-                        <button id="contact-form-submit" type="submit" name="contact-form-submit">Send</button>
-                    </div>
+                        <div class="form-group">
+                            <p class="form-err"></p>
+                            <p class="form-message"></p>
+                        </div>
+                    </form>
 
-                    <div class="form-group">
-                        <p class="form-err"></p>
-                        <p class="form-message"></p>
+                    <div>
+                        <h3>Follow Us Online</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/propertyworkz" title="Property Workz on Facebook"><img src="assets/images/facebook.png" alt=""><span>facebook.com/propertyworkz</span></a></li>
+                            <li><a href="https://www.instagram.com/propertyworkz/" title="Property Workz on Instagram"><img src="assets/images/instagram.png" alt=""><span>@propertyworkz</span></a></li>
+                        </ul>
                     </div>
-                </form>
+                </div>
             </section>
 
 		<footer role="contentinfo">

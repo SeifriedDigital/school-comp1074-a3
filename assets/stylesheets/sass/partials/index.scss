@@ -136,9 +136,9 @@ body {
   section#contact {
     padding: 3rem 1rem 4rem;
 
-    >form {
+    form {
 
-      >div.form-group {
+      div.form-group {
         display: flex;
         flex-direction: column;
         margin-bottom: 1.5rem;
@@ -466,14 +466,69 @@ body {
     }
 
     section#contact {
-        width: 60%;
-        padding: 2rem 2rem 3rem;
-        box-sizing: border-box;
 
-      >form {
+      padding: 2rem 2rem 3rem;
+      box-sizing: border-box;
 
-        >div.form-group {
+      // Flex container
+      >div {
+        display: flex;
 
+        >form {
+          width: 60%;
+
+          >div.form-group {
+
+            &:nth-of-type(4) {
+              display: flex;
+              flex-direction: row;
+              justify-content: flex-end;
+            }
+
+            >button {
+              width: 175px;
+            }
+          }
+        }
+
+        // Social links
+        >div {
+          width: 40%;
+          padding-left: 3rem;
+
+          h3 {
+            font-size: 2.3rem;
+            margin-bottom: .75rem;
+          }
+
+          ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+              margin-bottom: 2rem;
+
+              &:first-of-type {
+                margin-top: 25px;
+              }
+            }
+
+            li>a {
+              display: flex;
+              align-items: center;
+              color: $dark-gray;
+              text-decoration: none;
+
+              >span {
+                margin-left: 1rem;
+              }
+            }
+
+            li>a>img {
+              width: 100px;
+            }
+          }
         }
       }
     }
