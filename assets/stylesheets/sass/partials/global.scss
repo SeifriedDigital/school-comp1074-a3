@@ -101,6 +101,7 @@ body>header {
       // Logo
       >img {
         position: relative;
+        left: -14px;
         max-width: 300px;
         width: inherit;
       }
@@ -111,7 +112,7 @@ body>header {
 body>footer {
   width: 100vw;
   background: $brand-orange;
-  padding: 2rem 1rem;
+  padding: 2rem;
   box-sizing: border-box;
 
   //.container
@@ -161,6 +162,7 @@ body>footer {
     >div:nth-of-type(2) {
       >h1 {
         text-align: justify;
+        padding-left: 1rem;
       }
     }
   }
@@ -170,6 +172,8 @@ body>footer {
     >div {
       flex-direction: row;
       justify-content: space-between;
+      padding: 0 2rem;
+      box-sizing: border-box;
     }
 
     small:first-of-type {
@@ -188,7 +192,6 @@ body>footer {
     max-width: 1440px;
     margin: 0 auto;
     overflow: hidden;
-    left:0;
   }
 
   body>header {

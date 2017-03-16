@@ -108,21 +108,23 @@
             <small></small>
         </section>
 
-        <section id="testimonials" class="container" role="complementary">
-            <h2>Testimonials</h2>
+        <section id="testimonials" role="complementary">
+            <div class="container">
+                <h2>Testimonials</h2>
 
-            <div id="slick-slideshow-testimonials">
-                <blockquote cite="John Doe" class="testimonial-slider">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
-                </blockquote>
+                <div id="slick-slideshow-testimonials">
+                    <blockquote cite="John Doe" class="testimonial-slider">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                    </blockquote>
 
-                <blockquote cite="John Doe" class="testimonial-slider">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
-                </blockquote>
+                    <blockquote cite="John Doe" class="testimonial-slider">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                    </blockquote>
 
-                <blockquote cite="John Doe" class="testimonial-slider">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
-                </blockquote>
+                    <blockquote cite="John Doe" class="testimonial-slider">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                    </blockquote>
+                </div>
             </div>
         </section>
 
@@ -156,7 +158,7 @@
                 </form>
 
                 <div>
-                    <h3>Follow Us Online</h3>
+                    <h3>Follow Us</h3>
                     <ul>
                         <li><a href="https://www.facebook.com/propertyworkz" title="Property Workz on Facebook"><img src="assets/images/facebook.png" alt=""><span>/propertyworkz</span></a></li>
                         <li><a href="https://www.instagram.com/propertyworkz/" title="Property Workz on Instagram"><img src="assets/images/instagram.png" alt=""><span>@propertyworkz</span></a></li>

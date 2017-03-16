@@ -180,7 +180,7 @@ body {
 
       // Social links
       >div {
-        padding: 3rem 1rem 4rem;
+        padding: 3rem 1rem 0;
 
         h3 {
           font-size: 2.3rem;
@@ -331,7 +331,7 @@ body {
 
     section#testimonials {
 
-      > div {
+      >div>div {
         max-width: 700px;
         margin: 0 auto;
       }
@@ -488,7 +488,12 @@ body {
       padding: 2rem 2rem 3rem;
       box-sizing: border-box;
 
-      >div#slick-slideshow-testimonials {
+      >div {
+        padding: 0 2rem;
+        box-sizing: border-box;
+      }
+
+      div#slick-slideshow-testimonials {
         display: flex;
         justify-content: space-between;
         max-width: none;
