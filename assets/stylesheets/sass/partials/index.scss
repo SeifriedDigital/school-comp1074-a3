@@ -139,6 +139,7 @@ body {
     >div {
 
       >form {
+        border-bottom: 3px solid $dark-gray;
 
         div.form-group {
           display: flex;
@@ -177,8 +178,10 @@ body {
         }
       }
 
-      // Social media links
+      // Social links
       >div {
+        padding: 3rem 1rem 4rem;
+
         h3 {
           font-size: 2.3rem;
           text-align: center;
@@ -190,19 +193,27 @@ body {
           margin: 0;
 
           >li {
-            text-align: center;
-            margin: .75rem;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+
+            &:first-of-type {
+              margin-top: 25px;
+            }
 
             >a {
               display: flex;
-              flex-direction: column;
-              justify-content: center;
+              align-items: center;
               color: $dark-gray;
               text-decoration: none;
 
+              >span {
+                margin-left: 1rem;
+              }
+
               >img {
                 width: 150px;
-                margin: 0 auto;
+                height: 150px;
               }
             }
           }
@@ -511,13 +522,18 @@ body {
 
         >form {
           width: 60%;
+          border: none;
+          padding-right: 3rem;
+          border-right: 3px solid $dark-gray;
+          box-sizing: border-box;
 
           >div.form-group {
 
-            &:nth-of-type(4) {
+            &:last-of-type {
               display: flex;
               flex-direction: row;
               justify-content: flex-end;
+              margin-bottom: 0;
             }
 
             >button {
@@ -529,39 +545,20 @@ body {
         // Social links
         >div {
           width: 40%;
-          padding-left: 3rem;
+          padding: 0 0 0 3rem;
 
           h3 {
-            font-size: 2.3rem;
-            margin-bottom: .75rem;
+            text-align: justify;
           }
 
-          ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
+          >ul {
 
-            li {
-              margin-bottom: 2rem;
+            >li {
+              justify-content: flex-start;
 
-              &:first-of-type {
-                margin-top: 25px;
-              }
+            >a {
+
             }
-
-            li>a {
-              display: flex;
-              align-items: center;
-              color: $dark-gray;
-              text-decoration: none;
-
-              >span {
-                margin-left: 1rem;
-              }
-            }
-
-            li>a>img {
-              width: 100px;
             }
           }
         }

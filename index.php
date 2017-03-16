@@ -146,12 +146,12 @@
                         </div>
 
                         <div class="form-group">
-                            <button id="contact-form-submit" type="submit" name="contact-form-submit">Send</button>
+                            <p class="form-err"></p>
+                            <p class="form-message"></p>
                         </div>
 
                         <div class="form-group">
-                            <p class="form-err"></p>
-                            <p class="form-message"></p>
+                            <button id="contact-form-submit" type="submit" name="contact-form-submit">Send</button>
                         </div>
                     </form>
 
