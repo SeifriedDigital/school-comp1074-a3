@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
 }
 
 body {
- overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body>header {
@@ -90,38 +90,42 @@ body>header {
 
   // Logo container
   >div:nth-of-type(2) {
-    width: 80vw;
-    max-width: 300px;
     margin: 2.5rem auto;
-    position: relative;
-    left: -18px;
 
     >h1 {
-      width: inherit;
-      max-width: inherit;
+      width: 100%;
       margin: 0;
+      text-align: center;
+
 
       // Logo
       >img {
+        position: relative;
+        max-width: 300px;
         width: inherit;
-        max-width: inherit;
       }
     }
   }
 }
 
 body>footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100vw;
   background: $brand-orange;
   padding: 2rem 1rem;
+  box-sizing: border-box;
 
-  >small:first-of-type {
+  //.container
+  >div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  small:first-of-type {
     margin-bottom: 1rem;
   }
 
-  >small:last-of-type {
+  small:last-of-type {
     >a {
       color: $dark-gray;
       font-weight: bold;
@@ -143,6 +147,11 @@ body>footer {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
   .mobile-only {
     display: none;
   }
@@ -150,28 +159,20 @@ body>footer {
   body>header {
     // Logo container
     >div:nth-of-type(2) {
-      margin: 1.5rem 0 1.5rem calc(1rem + 18px);
-
       >h1 {
-
-        // Logo
-        >img {
-
-        }
+        text-align: justify;
       }
     }
   }
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
 
   body>footer {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2rem;
+    // .container
+    >div {
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
-    >small:first-of-type {
+    small:first-of-type {
       margin-bottom: 0;
     }
   }
@@ -183,9 +184,11 @@ body>footer {
 }
 
 @media only screen and (min-width : 1440px) {
-  body {
+  .container {
     max-width: 1440px;
     margin: 0 auto;
+    overflow: hidden;
+    left:0;
   }
 
   body>header {
@@ -193,6 +196,15 @@ body>footer {
 
     >div {
       >div#mobile-nav-bar {
+
+      }
+    }
+
+    // Logo container
+    >div:nth-of-type(2) {
+
+
+      h1 {
 
       }
     }

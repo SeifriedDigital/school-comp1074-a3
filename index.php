@@ -25,7 +25,7 @@
 
 	<body>
 		<header>
-            <div>
+            <div class="container">
                 <div id="mobile-nav-bar" class="mobile-only">
                     <a href="tel:519-943-2206"><i class="fa fa-phone" aria-hidden="true"></i></a>
                     <a href="" id="open-nav-button" title="Open navigation" role="button" aria-pressed="false"><i class="fa fa-bars"></i></a>
@@ -41,14 +41,14 @@
                 </nav>
             </div>
 
-            <div>
+            <div class="container">
                <h1>
                    <img src="assets/images/logo.png" alt="Property Workz">
                </h1>
             </div>
 		</header>
 
-        <div id="ss-banner-container">
+        <div id="ss-banner-container" class="container">
             <div id="slick-slideshow-banner" role="banner">
                 <img src="http://placehold.it/350x350">
                 <img src="http://placehold.it/350x350">
@@ -58,7 +58,7 @@
             <a href="#contact">Message Us</a>
         </div>
 
-        <main role="main">
+        <main role="main" class="container">
             <section id="about">
                 <h2>We Are <span>Property Workz</span></h2>
                 <p>Since 2011 we have been providing residential and commercial property care to hundreds of customers across southern Ontario. We provide numerous services to suit your property's needs, whether it is weekly lawn care, tree removal or pressure washing, we will get the job done. We work with your schedule and aim to provide the same high standard of detail to each customer no matter the job.</p>
@@ -98,7 +98,7 @@
             </section>
         </main>
 
-        <section id="instafeed-section">
+        <section id="instafeed-section" class="container">
             <h2>See Some of Our Work</h2>
             <small> to view on Instagram</small>
 
@@ -108,66 +108,68 @@
             <small></small>
         </section>
 
-            <section id="testimonials" role="complementary">
-                <h2>Testimonials</h2>
+        <section id="testimonials" class="container" role="complementary">
+            <h2>Testimonials</h2>
 
-                <div id="slick-slideshow-testimonials">
-                    <blockquote cite="John Doe" class="testimonial-slider">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
-                    </blockquote>
+            <div id="slick-slideshow-testimonials">
+                <blockquote cite="John Doe" class="testimonial-slider">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                </blockquote>
 
-                    <blockquote cite="John Doe" class="testimonial-slider">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
-                    </blockquote>
+                <blockquote cite="John Doe" class="testimonial-slider">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                </blockquote>
 
-                    <blockquote cite="John Doe" class="testimonial-slider">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
-                    </blockquote>
-                </div>
-            </section>
+                <blockquote cite="John Doe" class="testimonial-slider">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                </blockquote>
+            </div>
+        </section>
 
-            <section id="contact">
-                <div>
-                    <form id="contact-form" action="index" method="post">
-                        <h2>Contact Us</h2>
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input id="name" type="text" name="name" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="subject">Subject:</label>
-                            <input id="subject" type="text" name="subject" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-
-                        <div class="form-group">
-                            <p class="form-err"></p>
-                            <p class="form-message"></p>
-                        </div>
-
-                        <div class="form-group">
-                            <button id="contact-form-submit" type="submit" name="contact-form-submit">Send</button>
-                        </div>
-                    </form>
-
-                    <div>
-                        <h3>Follow Us Online</h3>
-                        <ul>
-                            <li><a href="https://www.facebook.com/propertyworkz" title="Property Workz on Facebook"><img src="assets/images/facebook.png" alt=""><span>/propertyworkz</span></a></li>
-                            <li><a href="https://www.instagram.com/propertyworkz/" title="Property Workz on Instagram"><img src="assets/images/instagram.png" alt=""><span>@propertyworkz</span></a></li>
-                        </ul>
+        <section id="contact" class="container">
+            <div>
+                <form id="contact-form" action="index" method="post">
+                    <h2>Contact Us</h2>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" name="name" required>
                     </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input id="subject" type="text" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="form-err"></p>
+                        <p class="form-message"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <button id="contact-form-submit" type="submit" name="contact-form-submit">Send</button>
+                    </div>
+                </form>
+
+                <div>
+                    <h3>Follow Us Online</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/propertyworkz" title="Property Workz on Facebook"><img src="assets/images/facebook.png" alt=""><span>/propertyworkz</span></a></li>
+                        <li><a href="https://www.instagram.com/propertyworkz/" title="Property Workz on Instagram"><img src="assets/images/instagram.png" alt=""><span>@propertyworkz</span></a></li>
+                    </ul>
                 </div>
-            </section>
+            </div>
+        </section>
 
 		<footer role="contentinfo">
-            <small>&copy;<?php echo date("Y"); ?> Property Workz</small>
-            <small>Website by <a href="www.mathew.codes">Mathew Seifried</a></small>
+            <div class="container">
+                <small>&copy;<?php echo date("Y"); ?> Property Workz</small>
+                <small>Website by <a href="www.mathew.codes">Mathew Seifried</a></small>
+            </div>
 		</footer>
 
 		<!-- Scripts -->
