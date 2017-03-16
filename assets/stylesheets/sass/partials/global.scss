@@ -158,8 +158,21 @@ body>footer {
   }
 
   body>header {
+    display: flex;
+    flex-direction: column;
+
+    // .container
+    >div:nth-of-type(1) {
+      order: 2;
+    }
+
+
     // Logo container
     >div:nth-of-type(2) {
+      order: 1;
+      display: flex;
+      justify-content: flex-start;
+
       >h1 {
         text-align: justify;
         padding-left: 1rem;
