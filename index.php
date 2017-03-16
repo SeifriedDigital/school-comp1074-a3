@@ -98,7 +98,7 @@
             </section>
         </main>
 
-        <section id="instafeed-section" class="container">
+        <section id="work" class="container">
             <h2>See Some of Our Work</h2>
             <small> to view on Instagram</small>
 
