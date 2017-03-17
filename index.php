@@ -127,7 +127,7 @@
 
                 <nav id="main-nav" role="navigation">
                     <ul>
-                        <li><a href="/">Home</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#work">Our Work</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -144,9 +144,9 @@
 
         <div id="ss-banner-container" class="container">
             <div role="banner" id="slick-slideshow-banner">
-                <img src="http://placehold.it/350x350">
-                <img src="http://placehold.it/350x350">
-                <img src="http://placehold.it/350x350">
+                <img src="assets/images/lawn-care.jpg">
+                <img src="assets/images/pressure-washing.jpg">
+                <img src="assets/images/landscaping.jpg">
             </div>
 
             <a href="#contact">Message Us</a>
