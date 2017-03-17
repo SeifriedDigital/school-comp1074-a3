@@ -1,17 +1,15 @@
 $(document).ready(function() {
+    // Call these functions on document load
+    UpdateAriaAttributes
+    CheckBreakpoints()
 
+    // Toggle drop-down nav class when button is pressed
     $('#open-nav-button').on('click', function(e) {
         e.preventDefault()
         $('nav#main-nav').toggleClass('open')
 
-		// Change aria-pressed value when toggling the navigation via the nav toggle buttons on a mobile view
-		if ($('nav#main-nav').hasClass('open')) {
-            $('#open-nav-button').attr("aria-pressed","true")
-            $('#close-nav-button').attr("aria-pressed","false")
-		} else {
-            $('#open-nav-button').attr("aria-pressed","false")
-            $('#close-nav-button').attr("aria-pressed","true")
-		}
+        // Update aria attributes
+        UpdateAriaAttributes()
     })
 
 	// Initialize slick slideshow banner
@@ -38,11 +36,9 @@ $(document).ready(function() {
         feed.run()
 	}
 
-    // Check breakpoint for activating testimonial slider on doc load
-    CheckBreakpoints()
-
     // Trigger functions on window resize
     $(window).resize(function(){
+        UpdateAriaAttributes()
         CheckBreakpoints()
     })
 
@@ -60,6 +56,40 @@ $(document).ready(function() {
     // )
 })
 
+// This updates area values related to the header and drop-down navigation on smaller screens
+function UpdateAriaAttributes() {
+    // Change aria-pressed value when toggling the navigation via the nav toggle buttons on a mobile view
+    if (window.matchMedia('(min-width: 992px)').matches) {
+        // This will happen when larger screen size styles are present, this makes sure the aria values are correct when screen gets resided
+        $('nav#main-nav').attr("aria-hidden", "false")
+        $('nav#main-nav').attr("aria-expanded", "true")
+        $('#open-nav-button').attr("aria-pressed","false")
+        $('#open-nav-button').removeClass("active")
+        $('#open-nav-button').attr("aria-dissabled","true")
+
+
+    } else {
+        $('#open-nav-button').attr("aria-dissabled","false")
+
+        // This will only function on mobile screen sizes
+        if ($('nav#main-nav').hasClass('open')) {
+
+            $('nav#main-nav').attr("aria-hidden", "false")
+            $('nav#main-nav').attr("aria-expanded", "true")
+            $('#open-nav-button').addClass("active")
+            $('#open-nav-button').attr("aria-pressed","true")
+
+        } else {
+
+            $('nav#main-nav').attr("aria-hidden", "true")
+            $('nav#main-nav').attr("aria-expanded", "false")
+            $('#open-nav-button').removeClass("active")
+            $('#open-nav-button').attr("aria-pressed","false")
+        }
+    }
+}
+
+// This fixes errors thrown by slick-slideshow when trying to remove the slideshow from the ellement for larger screens
 function CheckBreakpoints() {
     let sst = $('#slick-slideshow-testimonials')
 

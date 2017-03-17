@@ -47,6 +47,13 @@ body>header {
         font-size: 2rem;
         color: $dark-gray;
         text-decoration: none;
+
+        // toggle nav
+        &:last-of-type {
+          .active {
+            box-shadow: inset 0 0 3px $dark-gray;
+          }
+        }
       }
 
       >i {

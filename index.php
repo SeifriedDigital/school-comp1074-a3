@@ -1,9 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Project Comments -->
-		<!-- This website features a small property maintenance company which is local to me. This website is targeting homeowners and small businesses requiring property maintenance either on a as needed or regular basis. -->
-		<!-- Original Website: http://www.propertyworkz.ca/about.html -->
+		<!--
+		COMP1074 - A3 - Mathew Seifried
+
+		This website features a small property maintenance company which is local to me. This website is targeting homeowners and small businesses requiring property maintenance either on a as needed or regular basis.
+		It is important for a website with services like this one to be accessible because people will disability, especially visual disabilities will most likely require assistance with property care.
+
+		Original Website: http://www.propertyworkz.ca/about.html
+		Only content such as some of the text and images are being used in my assignment version of this website. The business has grated me permission to use their content.
+
+        ARIA LANDMARKS ROLES
+        124, 125 - button
+        128 - navigation
+        146 - banner
+        155 - main
+        205 - complementary
+        269 - content-info
+
+        ARIA STATES
+        125 - aria-disabled, aria-pressed (via custom.js 60 -> 90)
+        128 - aria-hidden, aria-expanded (via custom.js 60 -> 90)
+
+        ARIA PROPERTIES
+        199 - aria-live, aria-relevant
+        227 -> 257 - aria-labelledby, aria-required
+
+        ARIA LIVE
+        199
+
+        Extra space was in case I needed more room to type without wreaking the line numbers above but I overestimated that a bit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		-->
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,8 +121,8 @@
 		<header>
             <div class="container">
                 <div id="mobile-nav-bar" class="mobile-only">
-                    <a href="tel:519-943-2206"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                    <a href="" id="open-nav-button" title="Open navigation" role="button" aria-pressed="false"><i class="fa fa-bars"></i></a>
+                    <a href="tel:519-943-2206" title="Call Property Workz" role="button"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                    <a href="" id="open-nav-button" title="Toggle navigation" role="button"><i class="fa fa-bars"></i></a>
                 </div>
 
                 <nav id="main-nav" role="navigation">
@@ -49,7 +143,7 @@
 		</header>
 
         <div id="ss-banner-container" class="container">
-            <div id="slick-slideshow-banner" role="banner">
+            <div role="banner" id="slick-slideshow-banner">
                 <img src="http://placehold.it/350x350">
                 <img src="http://placehold.it/350x350">
                 <img src="http://placehold.it/350x350">
@@ -102,13 +196,13 @@
             <h2>See Some of Our Work</h2>
             <small> to view on Instagram</small>
 
-            <div id="instafeed">
+            <div id="instafeed" aria-live="polite" aria-relevant="additions">
             <!-- Populated via JS -->
             </div>
             <small></small>
         </section>
 
-        <section id="testimonials" role="complementary">
+        <section  role="complementary" id="testimonials">
             <div class="container">
                 <h2>Testimonials</h2>
 
@@ -130,21 +224,26 @@
 
         <section id="contact" class="container">
             <div>
-                <form id="contact-form" action="index" method="post">
+                <form role="form" id="contact-form" action="index" method="post" autocomplete="on">
                     <h2>Contact Us</h2>
                     <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input id="name" type="text" name="name" required>
+                        <label id="name-label" for="name">Name:</label>
+                        <input id="name" type="text" name="name" required aria-required="true" aria-autocomplete="both" aria-labelledby="contact-form name-label">
                     </div>
 
                     <div class="form-group">
-                        <label for="subject">Subject:</label>
-                        <input id="subject" type="text" name="subject" required>
+                        <label id="email-label" for="email">Email:</label>
+                        <input id="email" type="email" name="email" required aria-required="true" aria-autocomplete="both" aria-labelledby="contact-form email-label">
                     </div>
 
                     <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" required></textarea>
+                        <label id="subject-label" for="subject">Subject:</label>
+                        <input id="subject" type="text" name="subject" autocomplete="off" aria-autocomplete="none" required aria-required="true" aria-labelledby="contact-form subject-label">
+                    </div>
+
+                    <div class="form-group">
+                        <label id="message-label" for="message">Message:</label>
+                        <textarea id="message" name="message" required autocomplete="off" aria-autocomplete="none" aria-required="true"  aria-labelledby="contact-form message-label"></textarea>
                     </div>
 
                     <div class="form-group">

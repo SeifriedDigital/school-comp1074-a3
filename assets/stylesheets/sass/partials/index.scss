@@ -421,6 +421,10 @@ body {
         z-index: -1;
       }
 
+      &.container {
+        margin: 1.5rem auto 0;
+      }
+
       >section#about {
         width: 37.5%;
         padding: 2rem 2rem 3rem;
