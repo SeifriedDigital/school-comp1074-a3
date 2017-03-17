@@ -120,7 +120,7 @@
 	<body>
 		<header>
             <div class="container">
-                <div id="mobile-nav-bar" class="mobile-only">
+                <div id="mobile-nav-bar">
                     <a href="tel:519-943-2206" title="Call Property Workz" role="button"><i class="fa fa-phone" aria-hidden="true"></i></a>
                     <a href="" id="open-nav-button" title="Toggle navigation" role="button"><i class="fa fa-bars"></i></a>
                 </div>
@@ -172,22 +172,22 @@
 
                 <div class="service-block">
                     <h3>Lawn Care</h3>
-                    <p>Scheduled lawn care services to suit your needs. Whether it is twice a week or once every other week we will keep your lawn looking beautiful. Lawn mowing, weed whipping, watering, aerating and rolling are just some of our lawn care services. </p>
+                    <p>Scheduled lawn care services to suit your needs is our specialty. Whether it is twice a week or once every other week we will keep your lawn looking beautiful. Lawn mowing, weed whipping, watering, aerating and rolling are just some of our lawn care services. </p>
                 </div>
 
                 <div class="service-block">
-                    <h3>Gardening & Landscaping</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <h3>Property Maintenance</h3>
+                    <p>Leaves jamming your eavestroughs? Driveway starting to crack? Siding looking grungy? Our team has done it all! We can help you with your spring cleaning and keep your property looking sharp. Let us do the work while you relax.</p>
                 </div>
 
                 <div class="service-block">
-                    <h3>Power Washing</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <h3>Commercial Services</h3>
+                    <p>Our skilled team is the answer to keeping your property in shape so you can worry about the business side of things. With our equipment and expertise we can provide your business the service it needs.</p>
                 </div>
 
                 <div class="service-block">
-                    <h3>Not What You Were Looking For?</h3>
-                    <p>Didn't see what you were looking for in terms of services? Send us a message explaining your needs and we will do our best to get the job done.</p>
+                    <h3>Got Something Interesting?</h3>
+                    <p>Don't worry! Just send us a message and we will get back to you with an answer. We aim to provide you with a one stop solution for all of your property's needs.</p>
                 </div>
             </section>
         </main>
@@ -208,15 +208,15 @@
 
                 <div id="slick-slideshow-testimonials">
                     <blockquote cite="John Doe" class="testimonial-slider">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                        "These guys are awesome, they are in it for more than just the money, their customer service is on point. I'm always so pleased to see all the extra little things they do for my lawn, it looks so nice!"<br><span>- Nicole Ireland</span>
                     </blockquote>
 
                     <blockquote cite="John Doe" class="testimonial-slider">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                        "Thanks to Property Workz for the awesome job on my property. The fallen branches from the storm created a real mess. Having someone dependable with a chainsaw made the cleanup easier."<br><span>- S & N</span>
                     </blockquote>
 
                     <blockquote cite="John Doe" class="testimonial-slider">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><span>- John Doe</span>
+                        "We wanted our lawn maintained after coming home from our vacation spot so we could relax and unwind. Property Workz gave us exactly that."<br><span>- Josh</span>
                     </blockquote>
                 </div>
             </div>

@@ -41,32 +41,18 @@ $(document).ready(function() {
         UpdateAriaAttributes()
         CheckBreakpoints()
     })
-
-
-    // // Find overflowing elements
-    // var docWidth = document.documentElement.offsetWidth;
-    //
-    // [].forEach.call(
-    //     document.querySelectorAll('*'),
-    //     function(el) {
-    //         if (el.offsetWidth > docWidth) {
-    //             console.log(el)
-    //         }
-    //     }
-    // )
 })
 
-// This updates area values related to the header and drop-down navigation on smaller screens
+// This updates ARIA values related to the header and drop-down navigation
 function UpdateAriaAttributes() {
-    // Change aria-pressed value when toggling the navigation via the nav toggle buttons on a mobile view
     if (window.matchMedia('(min-width: 992px)').matches) {
-        // This will happen when larger screen size styles are present, this makes sure the aria values are correct when screen gets resided
+        // Only runs when screen is not in "mobile" size and ensures that ARIA values are correct when screen is resized
         $('nav#main-nav').attr("aria-hidden", "false")
         $('nav#main-nav').attr("aria-expanded", "true")
-        $('#open-nav-button').attr("aria-pressed","false")
+        $('nav#main-nav').removeClass('open')
         $('#open-nav-button').removeClass("active")
+        $('#open-nav-button').attr("aria-pressed","false")
         $('#open-nav-button').attr("aria-dissabled","true")
-
 
     } else {
         $('#open-nav-button').attr("aria-dissabled","false")
@@ -100,7 +86,8 @@ function CheckBreakpoints() {
     } else if (!(sst.hasClass('slick-initialized'))) {
         // Initialize slick slideshow for testimonials on mobile
         sst.slick({
-            autoplay: false,
+            autoplay: true,
+            autoplaySpeed: 5000,
             arrows: true,
             cssEase: 'linear',
             dots: true,
