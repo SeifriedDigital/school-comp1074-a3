@@ -29,7 +29,7 @@
         ARIA LIVE
         199
 
-        Extra space was in case I needed more room to type without wreaking the line numbers above but I overestimated that a bit.
+        Extra space was in case I needed more room to type without breaking the line numbers above but I overestimated that a bit.
 
 
 

@@ -23,7 +23,7 @@ $(document).ready(function() {
 		mobileFirst: true,
 	})
 
-	// Initialize instagram feed if related element is present
+	// Initialize instagram feed
 	if('#instafeed') {
         let feed = new Instafeed({
             get: 'user',
