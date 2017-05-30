@@ -1,104 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!--
-		COMP1074 - A3 - Mathew Seifried
-
-		This website features a small property maintenance company which is local to me. This website is targeting homeowners and small businesses requiring property maintenance either on a as needed or regular basis.
-		It is important for a website with services like this one to be accessible because people will disability, especially visual disabilities will most likely require assistance with property care.
-
-		Original Website: http://www.propertyworkz.ca/about.html
-		Only content such as some of the text and images are being used in my assignment version of this website. The business has grated me permission to use their content.
-
-        ARIA LANDMARKS ROLES
-        124, 125 - button
-        128 - navigation
-        146 - banner
-        155 - main
-        205 - complementary
-        269 - content-info
-
-        ARIA STATES
-        125 - aria-disabled, aria-pressed (via custom.js 60 -> 90)
-        128 - aria-hidden, aria-expanded (via custom.js 60 -> 90)
-
-        ARIA PROPERTIES
-        199 - aria-live, aria-relevant
-        227 -> 257 - aria-labelledby, aria-required
-
-        ARIA LIVE
-        199
-
-        Extra space was in case I needed more room to type without breaking the line numbers above but I overestimated that a bit.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		-->
-
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -108,9 +10,8 @@
 		<meta name="keywords" content="Property Maintenance, Grass Cutting, Lawn Mowing, Weed Whipping, Tree Removal, Stump Removal">
 		<meta name="author" content="Mathew Seifried">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
 		<link rel="stylesheet" href="assets/stylesheets/normalize.css">
-
 		<link rel="stylesheet" href="assets/stylesheets/slick/slick.css">
 		<link rel="stylesheet" href="assets/stylesheets/slick/slick-theme.css">
 		<link rel="stylesheet" href="assets/stylesheets/custom.css">
@@ -269,14 +170,14 @@
 		<footer role="contentinfo">
             <div class="container">
                 <small>&copy;<?php echo date("Y"); ?> Property Workz</small>
-                <small>Website by <a href="www.mathew.codes">Mathew Seifried</a></small>
+                <small>Website By: <a href="https://www.mathew.codes">Mathew Seifried</a></small>
             </div>
 		</footer>
 
 		<!-- Scripts -->
 		<script type="text/javascript" src="assets/javascripts/jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="assets/javascripts/slick.min.js"></script>
-        <script type="text/javascript" src="assets/javascripts/instafeed.min.js"></script>
+    <script type="text/javascript" src="assets/javascripts/instafeed.min.js"></script>
 		<script type="text/javascript" src="assets/javascripts/custom.js"></script>
 	</body>
 </html>
